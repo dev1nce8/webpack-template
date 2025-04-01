@@ -2,10 +2,9 @@
   "name": "webpack-template",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "build": "webpack --config webpack.prod.cjs",
-    "dev": "webpack serve --open --config webpack.dev.cjs",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --open --config webpack.dev.js",
     "deploy": "git subtree push --prefix dist origin gh-pages",
     "lint": "eslint"
   },
